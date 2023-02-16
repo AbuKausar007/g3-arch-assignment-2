@@ -41,7 +41,8 @@ body {
 .navbar {
     display: flex;
 }
-.navbar a{
+
+.navbar a {
     color: #424242;
 }
 
@@ -60,15 +61,17 @@ body {
     font-weight: 700;
     font-size: 64px;
 }
-.heading-text p{
+
+.heading-text p {
     margin-top: 26px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
     line-height: 0;
-   
+
 }
-.primary-btn{
+
+.primary-btn {
     background: #FF900E;
     padding: 15px 25px;
     border-radius: 8px;
@@ -79,13 +82,51 @@ body {
     cursor: pointer;
     margin: 35px 0;
 }
-.banner-img{
+
+.banner-img {
     padding-bottom: 45px;
 }
-.banner-img img{
+
+.banner-img img {
     border-radius: 15px;
     margin: auto;
     width: 90%;
     margin: auto;
-        display: block;
+    display: block;
+}
+
+/* ------------------------quick list area styles--------------------- */
+.quick-list-container{
+    margin-top: 85px;
+    width: 100%;
+}
+.quick-lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 73px;
+}
+.quick-images {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 12px;
+   
+}
+.quick-gray{
+    font-weight: 500;
+        color: #727272;
+}
+.quick-black{
+    font-weight: 700;
+    color: #131313;
+}
+.quick-orange{
+    color: #FF900E;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+.quick-text h2{
+    line-height: 53px;
+    font-size: 45px;
+    
 }
