@@ -360,10 +360,12 @@ textarea {
         display: flex;
         flex-direction: column;
     }
-        .logo {
-            font-weight: 700;
-            font-size: 22px;
-        }
+
+    .logo {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
     .navbar li {
         list-style: none;
         margin: 0 auto;
@@ -371,34 +373,62 @@ textarea {
         font-size: 22px;
         padding: 8px 0;
     }
-        .heading-text {
-            text-align: center;
-            margin-top: 60px;
-        }
-    
-        .heading-text h1 {
-            font-weight: 700;
-            font-size: 30px;
-        }
-    
-        .heading-text p {
-            margin-top: 16px;
-            font-weight: 400;
-            font-size: 16px;
-            color: #727272;
-            line-height: 20px;
-    
-        }
-    
-        .primary-btn {
-            background: #FF900E;
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 18px;
-            color: white;
-            border: none;
-            cursor: pointer;
-            margin: 30px 0;
-        }
+
+    .heading-text {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .heading-text h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .heading-text p {
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        line-height: 20px;
+
+    }
+
+    .primary-btn {
+        background: #FF900E;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 30px 0;
+    }
+
+    .quick-list-container {
+        margin-top: 85px;
+        width: 100%;
+    }
+
+    .quick-lists {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 73px;
+    }
+    .quick-text {
+        padding-left: 16px;
+    }
+    .quick-text h2 {
+        line-height: 53px;
+        font-size: 35px;
+    }
+
+    .quick-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 12px;
+
+    }
 }
