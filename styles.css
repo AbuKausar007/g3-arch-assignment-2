@@ -199,3 +199,47 @@ body {
     font-size: 25px;
     color: white;
 }
+
+/* ----------------------- some facts area styles --------------------------- */
+.facts-container h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 18px;
+}
+
+.facts-container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.facts-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.fact-item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    height: 242px;
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fact-item h2{
+    font-weight: 600;
+        font-size: 45px;
+        line-height: 53px;
+        color: #424242;
+}
+.fact-item p{
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: #727272;
+}
