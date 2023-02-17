@@ -338,3 +338,67 @@ textarea {
     text-align: center;
     color: #424242;
 }
+
+/* ------------------------------ media queries -------------------------------- */
+@media only screen and (min-width:0px) and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+        .logo {
+            font-weight: 700;
+            font-size: 22px;
+        }
+    .navbar li {
+        list-style: none;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 8px 0;
+    }
+        .heading-text {
+            text-align: center;
+            margin-top: 60px;
+        }
+    
+        .heading-text h1 {
+            font-weight: 700;
+            font-size: 30px;
+        }
+    
+        .heading-text p {
+            margin-top: 16px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #727272;
+            line-height: 20px;
+    
+        }
+    
+        .primary-btn {
+            background: #FF900E;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 18px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 30px 0;
+        }
+}
