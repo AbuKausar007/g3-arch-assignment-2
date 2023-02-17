@@ -171,7 +171,31 @@ body {
 
 .feature-image img {
     border-radius: 15px;
-    height: 90%;
+    height: 92%;
     display: block;
     margin: auto;
+}
+
+.experience-btn {
+    border: none;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    left: 56%;
+    top: 90%;
+    transform: translate(-56%, -90%);
+}
+
+.experience-btn h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+
+.experience-btn p {
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
 }
