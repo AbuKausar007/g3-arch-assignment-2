@@ -284,10 +284,9 @@ body {
     align-items: center;
 }
 
-.contact-img img {
-    display: inline-block;
-    margin: auto;
+.contact-image img {
     border-radius: 10px;
+    width: 600px;
 
 }
 
@@ -471,7 +470,6 @@ textarea {
 
     .feature-image img {
         border-radius: 15px;
-        /* height: 50%; */
         width: 100%;
         display: block;
         margin: auto;
@@ -534,7 +532,7 @@ textarea {
     }
 
     .sponsor-container h2 {
-        font-size: 35px;  
+        font-size: 35px;
     }
 
     .sponsor-container p {
@@ -549,7 +547,25 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-    .sponsor-img img{
+
+    .sponsor-img img {
         margin: 30px 0;
+    }
+
+    .contact-us {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-form {
+        text-align: center;
+    }
+
+    .contact-image img {
+        width: 100%;
+
     }
 }
