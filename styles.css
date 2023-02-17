@@ -417,9 +417,11 @@ textarea {
         align-items: center;
         gap: 73px;
     }
+
     .quick-text {
         padding-left: 16px;
     }
+
     .quick-text h2 {
         line-height: 53px;
         font-size: 35px;
@@ -430,5 +432,72 @@ textarea {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 12px;
 
+    }
+
+    .features-container {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 0 16px;
+
+    }
+
+    .feature-text h2 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 53px;
+        color: #131313;
+        border-left: 5px solid #FF900E;
+        padding-left: 15px;
+    }
+
+    .feature-text p {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+    }
+
+    .feature-card {
+        padding: 16px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 8px;
+        margin-top: 25px;
+    }
+
+    .feature-image img {
+        border-radius: 15px;
+        /* height: 50%; */
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .experience-btn {
+        border: none;
+        width: 280px;
+        height: 160px;
+        background: #FF900E;
+        border-radius: 8px;
+        position: relative;
+        left: 50%;
+        top: -20%;
+        transform: translate(-50%, 20%);
+    }
+
+    .experience-btn h1 {
+        font-weight: 700;
+        font-size: 55px;
+        color: white;
+    }
+
+    .experience-btn p {
+        font-weight: 500;
+        font-size: 22px;
+        color: white;
     }
 }
