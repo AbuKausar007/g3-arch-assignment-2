@@ -500,7 +500,8 @@ textarea {
         font-size: 22px;
         color: white;
     }
-    .facts-container{
+
+    .facts-container {
         margin-top: 100px;
         padding-left: 16px;
     }
@@ -532,7 +533,23 @@ textarea {
         margin-top: 15px;
     }
 
-    
+    .sponsor-container h2 {
+        font-size: 35px;  
+    }
 
-    /*  */
+    .sponsor-container p {
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .sponsor-img {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsor-img img{
+        margin: 30px 0;
+    }
 }
